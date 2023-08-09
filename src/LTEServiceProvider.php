@@ -2,9 +2,9 @@
 
 namespace SanlyApp\LTE;
 
+use SanlyApp\LTE\Commands\LTECommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use SanlyApp\LTE\Commands\LTECommand;
 
 class LTEServiceProvider extends PackageServiceProvider
 {
