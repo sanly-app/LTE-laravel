@@ -12,18 +12,18 @@ class LTEMenu
     public function add($group, $name, $icon, $subMenu = null): void
     {
         $this->items[$group][] = [
-            "name" => $name,
-            "icon" => $icon,
-            "subMenu" => $subMenu
+            'name' => $name,
+            'icon' => $icon,
+            'subMenu' => $subMenu,
         ];
     }
 
     public function subMenu($name, $icon, $route): array
     {
         return [
-            "name" => $name,
-            "icon" => $icon,
-            "route" => $route
+            'name' => $name,
+            'icon' => $icon,
+            'route' => $route,
         ];
     }
 
