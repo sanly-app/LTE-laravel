@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace SanlyApp\LTE\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LTECommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'lte';
 
     public $description = 'My command';
 
